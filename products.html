@@ -1,57 +1,483 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Products - Ardh Sainik Canteen</title>
+    <title>All Products - Ardh Sainik Canteen</title>
+
     <style>
         body {
-            font-family: Arial;
-            background-color: #f9f9f9;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #f2f2f2, #e6f2ff);
+        }
+
+        header {
+            background: #0b3d91;
+            color: white;
             text-align: center;
+            padding: 30px;
         }
-        h1 {
-            background-color: green;
-            color: white;
-            padding: 15px;
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+
+        .product {
+            background: white;
+            margin: 40px;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
         }
-        li {
-            background-color: white;
-            margin: 10px auto;
-            padding: 10px;
-            width: 300px;
-            border-radius: 5px;
-            box-shadow: 0 0 5px gray;
+
+        .product h2 {
+            font-size: 28px;
+            color: #0b3d91;
+        }
+
+        .price {
+            font-size: 22px;
+            margin: 15px 0;
+        }
+
+        .mrp {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .offer {
+            color: red;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .details {
             font-size: 18px;
+            line-height: 1.8;
+            color: #444;
         }
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            text-decoration: none;
+
+        footer {
+            background: #111;
             color: white;
-            background-color: darkgreen;
-            padding: 8px 15px;
-            border-radius: 5px;
+            text-align: center;
+            padding: 25px;
         }
     </style>
 </head>
+
 <body>
 
-<h1>Our Products</h1>
+<header>
+    <h1>🛒 Ardh Sainik Canteen</h1>
+    <p>Quality Products | Affordable Prices | Trusted Store</p>
+</header>
+    <div class="product">
+<h2>Sugar (1kg)</h2>
+<div class="price">MRP: <span class="mrp">₹50</span> | Our Price: <span class="offer">₹45</span></div>
+<div class="details">
+Premium refined crystal sugar ideal for daily tea, coffee, sweets and cooking.
+Hygienically packed to maintain purity and freshness.
+Long shelf life and perfect sweetness balance.
+</div>
+</div>
+    <div class="product">
+<h2>Fortune Refined Oil (1L)</h2>
+<div class="price">MRP: <span class="mrp">₹140</span> | Our Price: <span class="offer">₹125</span></div>
+<div class="details">
+Healthy refined cooking oil enriched with essential nutrients.
+Ideal for frying, sautéing and daily cooking.
+Light taste and maintains natural flavor of food.
+</div>
+</div>
+    <div class="product">
+<h2>Milk (500ml)</h2>
+<div class="price">MRP: <span class="mrp">₹32</span> | Our Price: <span class="offer">₹30</span></div>
+<div class="details">
+Fresh dairy milk rich in calcium and protein.
+Perfect for tea, coffee, sweets and drinking.
+Properly stored for maximum freshness.
+</div>
+</div>
+    <div class="product">
+<h2>Arhar Dal (1kg)</h2>
+<div class="price">MRP: <span class="mrp">₹135</span> | Our Price: <span class="offer">₹120</span></div>
+<div class="details">
+Premium quality Toor/Arhar dal.
+High in protein and essential nutrients.
+Perfect for everyday Indian meals.
+</div>
+</div>
+    <div class="product">
+<h2>Masoor Dal (1kg)</h2>
+<div class="price">MRP: <span class="mrp">₹85</span> | Our Price: <span class="offer">₹76</span></div>
+<div class="details">
+Rich red lentils with high nutritional value.
+Quick cooking and ideal for soups and dal recipes.
+Cleaned and hygienically packed.
+</div>
+</div>
+    <div class="product">
+<h2>Chana Dal (1kg)</h2>
+<div class="price">MRP: <span class="mrp">₹90</span> | Our Price: <span class="offer">₹78</span></div>
+<div class="details">
+Nutritious split chickpeas.
+Excellent source of protein and fiber.
+Suitable for daily cooking and snacks.
+</div>
+</div>
+    <div class="product">
+<h2>Chana Dal (1kg)</h2>
+<div class="price">MRP: <span class="mrp">₹90</span> | Our Price: <span class="offer">₹78</span></div>
+<div class="details">
+Nutritious split chickpeas.
+Excellent source of protein and fiber.
+Suitable for daily cooking and snacks.
+</div>
+</div>
+    <div class="product">
+<h2>Horlicks (1kg)</h2>
+<div class="price">MRP: <span class="mrp">₹450</span> | Our Price: <span class="offer">₹420</span></div>
+<div class="details">
+Health drink packed with vitamins and minerals.
+Supports growth, immunity and strength.
+Delicious malt taste for all ages.
+</div>
+</div>
+    <div class="product">
+<h2>Bisleri Water Bottle (1L)</h2>
+<div class="price">MRP: <span class="mrp">₹20</span> | Our Price: <span class="offer">₹15</span></div>
+<div class="details">
+Pure and safe packaged drinking water.
+Multi-stage purification process.
+Ideal for daily hydration and travel.
+</div>
+</div>
+    <div class="product">
+<h2>Shampoo (16 Sachets)</h2>
+<div class="price">MRP: <span class="mrp">₹15</span> | Our Price: <span class="offer">₹13</span></div>
+<div class="details">
+Gentle hair cleansing shampoo sachets.
+Suitable for all hair types.
+Affordable and travel-friendly.
+</div>
+</div>
+    <div class="product">
+<h2>Colgate Pack</h2>
+<div class="price">MRP: <span class="mrp">₹50</span> | Our Price: <span class="offer">₹45</span></div>
+<div class="details">
+Trusted toothpaste for cavity protection.
+Keeps breath fresh and teeth strong.
+Recommended for daily oral care.
+</div>
+</div>
+    <div class="product">
+<h2>Toothbrush</h2>
+<div class="price">MRP: <span class="mrp">₹20</span> | Our Price: <span class="offer">₹18</span></div>
+<div class="details">
+High-quality soft bristle toothbrush designed for gentle yet effective cleaning.
+Ergonomic grip handle for comfortable use.
+Helps maintain strong teeth and healthy gums.
+Dentist recommended for daily oral hygiene.
+</div>
+</div>
+    <div class="product">
+<h2>Dettol Soap</h2>
+<div class="price">MRP: <span class="mrp">₹10</span> | Our Price: <span class="offer">₹9</span></div>
+<div class="details">
+Antibacterial bathing soap that protects against germs.
+Provides long-lasting freshness and skin protection.
+Suitable for daily family use.
+Trusted hygiene brand.
+</div>
+</div>
+    <div class="product">
+<h2>Good Day Biscuit</h2>
+<div class="price">MRP: <span class="mrp">₹35</span> | Our Price: <span class="offer">₹33</span></div>
+<div class="details">
+Crunchy butter cookies with rich taste.
+Perfect tea-time snack for family.
+Sealed pack to maintain freshness.
+Loved by all age groups.
+</div>
+</div>
+    <div class="product">
+<h2>Bread</h2>
+<div class="price">MRP: <span class="mrp">₹40</span> | Our Price: <span class="offer">₹38</span></div>
+<div class="details">
+Fresh and soft bread ideal for breakfast and sandwiches.
+Hygienically packed for safety.
+Rich in carbohydrates for energy.
+Best served fresh.
+</div>
+</div>
+    <div class="product">
+<h2>Matchbox Pack</h2>
+<div class="price">MRP: <span class="mrp">₹10</span> | Our Price: <span class="offer">₹9</span></div>
+<div class="details">
+Reliable and safe matchbox pack.
+Long-lasting sticks with smooth strike.
+Essential household item for kitchen use.
+Safe packaging.
+</div>
+</div>
+    <div class="product">
+<h2>Tata Salt (1kg)</h2>
+<div class="price">MRP: <span class="mrp">₹28</span> | Our Price: <span class="offer">₹26</span></div>
+<div class="details">
+Iodized salt enriched with essential iodine.
+Maintains proper nutrition and health.
+Pure and refined quality.
+Trusted household brand.
+</div>
+</div>
+    <div class="product">
+<h2>Lifebuoy Soap</h2>
+<div class="price">MRP: <span class="mrp">₹12</span> | Our Price: <span class="offer">₹9</span></div>
+<div class="details">
+Germ protection soap with refreshing fragrance.
+Provides strong hygiene protection.
+Suitable for daily bathing.
+Dermatologically tested.
+</div>
+    </div>
+    <div class="product">
+<h2>Parle-G Biscuit</h2>
+<div class="price">MRP: <span class="mrp">₹10</span> | Our Price: <span class="offer">₹9</span></div>
+<div class="details">
+Classic glucose biscuits loved across India.
+Rich in taste and energy.
+Perfect for tea-time snacks.
+Economical and fresh pack.
+</div>
+</div>
+    <div class="product">
+<h2>Maggie Noodles</h2>
+<div class="price">MRP: <span class="mrp">₹15</span> | Our Price: <span class="offer">₹14</span></div>
+<div class="details">
+Instant noodles ready in minutes.
+Delicious masala taste.
+Quick snack for students and families.
+Easy cooking instructions included.
+</div>
+</div>
+    <div class="product">
+<h2>Tea Powder (250g)</h2>
+<div class="price">MRP: <span class="mrp">₹150</span> | Our Price: <span class="offer">₹140</span></div>
+<div class="details">
+Premium tea leaves with rich aroma.
+Strong flavor and refreshing taste.
+Perfect for daily morning tea.
+Carefully packed for freshness.
+</div>
+</div>
+    <div class="product">
+<h2>Coffee (100g)</h2>
+<div class="price">MRP: <span class="mrp">₹120</span> | Our Price: <span class="offer">₹110</span></div>
+<div class="details">
+Premium quality coffee powder with strong aroma and rich taste.
+Perfect for making refreshing hot and cold coffee.
+Carefully processed and packed to maintain freshness.
+Ideal for daily energy boost and gatherings.
+</
+    <div class="product">
+<h2>Rusk</h2>
+<div class="price">MRP: <span class="mrp">₹35</span> | Our Price: <span class="offer">₹32</span></div>
+<div class="details">
+Crispy and crunchy rusk perfect for tea-time.
+Made from quality ingredients and double baked for extra crunch.
+Long shelf life and hygienic packaging.
+Loved by all age groups.
+</div>
+</div>
+        <div class="product">
+<h2>Namkeen</h2>
+<div class="price">MRP: <span class="mrp">₹30</span> | Our Price: <span class="offer">₹28</span></div>
+<div class="details">
+Tasty and spicy namkeen snack.
+Perfect for evening snacks and parties.
+Freshly packed to maintain crispiness.
+Balanced flavor with quality ingredients.
+</div>
+</div>
+        <div class="product">
+<h2>Butter</h2>
+<div class="price">MRP: <span class="mrp">₹55</span> | Our Price: <span class="offer">₹50</span></div>
+<div class="details">
+Creamy and smooth butter made from fresh milk.
+Ideal for bread, cooking and baking.
+Rich taste and high quality dairy product.
+Stored under hygienic conditions.
+</div>
+</div>
+        <div class="product">
+<h2>Paneer</h2>
+<div class="price">MRP: <span class="mrp">₹85</span> | Our Price: <span class="offer">₹80</span></div>
+<div class="details">
+Fresh and soft paneer rich in protein.
+Perfect for curries, snacks and special dishes.
+Made from quality milk and hygienically packed.
+Best consumed fresh for maximum taste.
+</div>
+</div>
+        <div class="product">
+<h2>Fruit Jam</h2>
+<div class="price">MRP: <span class="mrp">₹70</span> | Our Price: <span class="offer">₹65</span></div>
+<div class="details">
+Delicious mixed fruit jam with natural flavor.
+Perfect for bread, sandwiches and desserts.
+Smooth texture and rich taste.
+Packed safely to preserve freshness.
+</div>
+</div>
+        <div class="product">
+<h2>Peanut Butter</h2>
+<div class="price">MRP: <span class="mrp">₹120</span> | Our Price: <span class="offer">₹110</span></div>
+<div class="details">
+Protein-rich peanut butter made from quality peanuts.
+Smooth and creamy texture.
+Ideal for breakfast and healthy snacks.
+Provides energy and nutrition.
+</div>
+</div>
+        <div class="product">
+<h2>Tomato Ketchup</h2>
+<div class="price">MRP: <span class="mrp">₹100</span> | Our Price: <span class="offer">₹95</span></div>
+<div class="details">
+Rich and tangy tomato ketchup.
+Perfect with snacks, samosas and sandwiches.
+Made from quality tomatoes.
+Sealed bottle for long freshness.
+</div>
+</div>
+        <div class="product">
+<h2>Noodles Pack</h2>
+<div class="price">MRP: <span class="mrp">₹20</span> | Our Price: <span class="offer">₹18</span></div>
+<div class="details">
+Quick cooking noodles with tasty seasoning.
+Easy to prepare and loved by kids and adults.
+Perfect snack option.
+Packed hygienically.
+</div>
+</div>
+        <div class="product">
+<h2>Oats</h2>
+<div class="price">MRP: <span class="mrp">₹140</span> | Our Price: <span class="offer">₹130</span></div>
+<div class="details">
+Healthy and fiber-rich oats.
+Ideal for breakfast and healthy meals.
+Supports digestion and heart health.
+Premium quality grains.
+</div>
+</div>
+        <div class="product">
+<h2>Cornflakes</h2>
+<div class="price">MRP: <span class="mrp">₹170</span> | Our Price: <span class="offer">₹160</span></div>
+<div class="details">
+Crispy cornflakes for nutritious breakfast.
+Fortified with essential vitamins and minerals.
+Best served with milk.
+Sealed pack to maintain crunch.
+</div>
+</div>
+        <div class="product">
+<h2>Cold Drink</h2>
+<div class="price">MRP: <span class="mrp">₹40</span> | Our Price: <span class="offer">₹38</span></div>
+<div class="details">
+Refreshing carbonated beverage.
+Perfect for parties and hot weather.
+Chilled for best taste.
+Available in sealed bottles.
+</div>
+</div>
+        <div class="product">
+<h2>Frooti</h2>
+<div class="price">MRP: <span class="mrp">₹20</span> | Our Price: <span class="offer">₹18</span></div>
+<div class="details">
+Delicious mango drink loved by all.
+Rich fruity flavor.
+Convenient and easy-to-carry pack.
+Best served chilled.
+</div>
+</div>
+        <div class="product">
+<h2>Ice Cream Cup</h2>
+<div class="price">MRP: <span class="mrp">₹30</span> | Our Price: <span class="offer">₹28</span></div>
+<div class="details">
+Creamy and delicious ice cream cup.
+Available in different flavors.
+Perfect dessert option.
+Stored at proper temperature.
+</div>
+</div>
+        <div class="product">
+<h2>Coconut Oil</h2>
+<div class="price">MRP: <span class="mrp">₹160</span> | Our Price: <span class="offer">₹150</span></div>
+<div class="details">
+Pure coconut oil for hair and cooking use.
+Strengthens hair and nourishes scalp.
+High-quality refined oil.
+Secure bottle packaging.
+</div>
+</div>
+        <div class="product">
+<h2>Washing Powder</h2>
+<div class="price">MRP: <span class="mrp">₹60</span> | Our Price: <span class="offer">₹55</span></div>
+<div class="details">
+Effective detergent powder for clean clothes.
+Removes tough stains easily.
+Fresh fragrance after wash.
+Suitable for hand and machine wash.
+</div>
+</div>
+        <div class="product">
+<h2>Dishwash Bar</h2>
+<div class="price">MRP: <span class="mrp">₹25</span> | Our Price: <span class="offer">₹23</span></div>
+<div class="details">
+Powerful dish cleaning bar.
+Removes grease and tough stains.
+Long-lasting and economical.
+Safe for utensils.
+</div>
+</div>
+        <div class="product">
+<h2>Handwash</h2>
+<div class="price">MRP: <span class="mrp">₹99</span> | Our Price: <span class="offer">₹90</span></div>
+<div class="details">
+Liquid handwash with germ protection.
+Gentle on skin and refreshing fragrance.
+Suitable for daily use.
+Hygienic pump bottle.
+</div>
+</div><div class="product">
+<h2>Sanitary Pads (Premium Pack)</h2>
 
-<ul>
-    <li>Sugar (1kg) - ₹44</li>
-    <li>Fortune Refine Oil - ₹125</li>
-    <li>Milk (500ml) - ₹30</li>
-    <li>Shampoo (16 packs) - ₹13</li>
-    <li>Tata Salt - ₹26</li>
-    <li>Basmati Rice - ₹110</li>
-    <li>Lifebuoy Soap (10Rs) - ₹9</li>
-</ul>
+<div class="price">
+MRP: <span class="mrp">₹99</span> | 
+Our Price: <span class="offer">₹75</span>
+</div>
 
-<a href="index.html">Back to Home</a>
+<div class="details">
+Premium quality sanitary pads designed for maximum comfort and protection.
+High absorbency core provides long-lasting leak protection.
+Soft cottony surface ensures skin comfort throughout the day.
+Individually wrapped pads for hygiene and convenience.
+Suitable for regular
+    <div class="product">
+<h2>Makhana (250g)</h2>
 
-</body>
-</html>
+<div class="price">
+MRP: <span class="mrp">₹300</span> | 
+Our Price: <span class="offer">₹250</span>
+</div>
+
+<div class="details">
+Premium quality makhana (fox nuts) rich in protein and nutrients.
+Light, crunchy and perfect for healthy snacking.
+Can be roasted with spices or used in kheer and other dishes.
+Low in fat and high in fiber, ideal for fitness-conscious customers.
+Carefully selected and hygienically packed to maintain freshness.
+Special discounted rate available at Ardh Sainik Canteen.
+</div>
+
+</div>
